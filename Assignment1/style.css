@@ -1,0 +1,292 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(235, 242, 245);
+}
+
+.container
+{
+    background-color: rgb(229, 234, 236);
+    margin: 0%;
+    padding: 0%;
+}
+img
+{
+    width: 40%;
+    float:right;
+    margin-top: 0% ;
+    margin-left: 15%;
+    height: 80%;
+    margin-right: 10%;
+}
+.text
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    
+}
+.big-text 
+{
+   font-weight: bold;
+   color: rgb(3, 3, 99);
+   font-size: 60px;
+   line-height: normal;
+}
+.light-text
+{
+    font-weight: lighter;
+    color: rgb(162, 162, 162);
+}
+.topic
+{
+    color: rgb(3, 3, 99);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.topic2
+{
+    color: rgb(3, 3, 99);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+
+}
+.topic3
+{
+    color: rgb(3, 3, 99);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.title2
+{
+    background-color: white;
+}
+.explanation
+{
+    color: rgb(3, 3, 99);
+    font-weight: lighter;
+   
+}
+.explanation2
+{
+    color: rgb(3, 3, 99);
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+
+.button
+{
+    background-color: rgb(86, 170, 139);
+    color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+.button2
+{
+    background-color: rgb(86, 170, 139);
+    color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 8px;
+    margin-left: 44%;
+    width: 200px;
+   
+}
+
+
+.title2 h2
+{
+    text-align: center;
+}
+
+.box
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 350px;
+    margin-left: 25%;
+
+
+}
+.card
+{
+    height: 250px;
+    width: 320px;
+    padding: 15px 30px;
+    margin: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color:rgb(3, 3, 99);
+    font-weight: lighter;
+
+}
+.card h5
+{
+    color: rgb(73, 148, 121);
+}
+.title3
+{
+    background-color: white;
+    margin-left: 5%;
+}
+.paragraph
+{
+    color:rgb(101, 101, 167);
+    font-size: 17px;
+    
+}
+.title4
+{
+    background-color: white;
+    
+   
+}
+.title4 h6
+{
+    color: rgb(3, 3, 99);
+    font-weight: bold; 
+    
+    
+}
+.title4 p
+{
+    color:rgb(101, 101, 167);
+    font-size: 13px;
+    
+}
+.title5 h6
+{
+    color: rgb(3, 3, 99);
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 20%;
+
+}
+.title5
+{
+    background-color: white;
+    margin-top: 0%;
+}
+.img2
+{
+    width: 40%;
+    float:right;
+    margin-top: 0% ;
+    margin-left: 15%;
+    height: 40%;
+    margin-right: 10%;
+}
+.email
+{
+    float:right;
+    margin-right: 10%;
+   
+}
+input
+{
+  border-radius: 8px;
+  width: 300px ;
+  margin-top: 5%;
+}
+.title6
+{
+    height: 100px;
+     background-color: rgb(235, 242, 245);
+}
+
+
+.title6 h5
+{
+    color: rgb(3, 3, 99);
+    font-weight: bold; 
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.title6 p
+{
+    color: rgb(3, 3, 99);
+    font-weight: lighter;
+   margin-left: 5%;
+}
+.button3
+{
+    background-color: rgb(86, 170, 139);
+    color: white;
+    border: none;
+    display: flex;
+    border-radius: 8px;
+    margin-left: 44%;
+    width: 100px;    
+}
+
+.summary
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+hr
+{
+    color: rgb(106, 100, 100);
+  
+}
+.list a
+{
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    
+}
+.container2
+{
+    border-radius: 20px;
+    margin: 5%;
+    background-color: rgb(235, 242, 245);
+    width: 75%;
+    margin-left: 10%;
+    height: 200px;
+    
+
+}
+.container2 p
+{
+ margin-top: 5%;
+}
+#accordion
+{
+    width: 60%;
+    margin-left: 20%;
+
+}
+.accordion-body
+{
+   
+    color: rgb(78, 76, 76);
+}
+.accordion-button
+{
+   
+    color: black;
+}
+.bi-chat-left
+{
+  color: rgb(82, 158, 134);
+}
+
+
+
+    
