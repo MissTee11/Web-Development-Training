@@ -62,6 +62,7 @@ body{
     font-weight: bold;
     font-size: 40px;
     text-align: center;
+    margin-top: 5%;
 
 }
 
@@ -75,13 +76,15 @@ body{
     font-weight: lighter;
    
 }
-.explanation2
+.explanation2 p
 {
     color: rgb(3, 3, 99);
     font-weight: lighter;
     text-align: center;
+   
 
 }
+
 
 
 .button
@@ -91,6 +94,7 @@ body{
     border: none;
     display: inline-block;
     border-radius: 8px;
+    padding: 10px;
 }
 .button2
 {
@@ -101,6 +105,7 @@ body{
     border-radius: 8px;
     margin-left: 44%;
     width: 200px;
+    padding: 5px 10px 5px 10px;
    
 }
 
@@ -169,18 +174,20 @@ body{
     font-size: 13px;
     
 }
-.title5 h6
+.explanation2 h6
 {
     color: rgb(3, 3, 99);
     font-weight: bold; 
     text-align: center;
-    margin-top: 20%;
+    margin-top: 5%;
+    padding-top: 30px;
 
 }
 .title5
 {
     background-color: white;
     margin-top: 0%;
+    text-align: center;
 }
 .img2
 {
@@ -194,14 +201,15 @@ body{
 .email
 {
     float:right;
-    margin-right: 10%;
+   
+   
    
 }
-input
+#email
 {
   border-radius: 8px;
   width: 300px ;
-  margin-top: 5%;
+  resize: both;
 }
 .title6
 {
@@ -227,11 +235,14 @@ input
 {
     background-color: rgb(86, 170, 139);
     color: white;
-    border: none;
-    display: flex;
+    padding: 5px 10px 5px 10px;
+   border: none;
     border-radius: 8px;
     margin-left: 44%;
-    width: 100px;    
+    width: 100px; 
+    float: right;   
+    text-align: center;
+    
 }
 
 .summary
@@ -254,18 +265,15 @@ hr
 .container2
 {
     border-radius: 20px;
-    margin: 5%;
+    margin-top: 10%;
     background-color: rgb(235, 242, 245);
     width: 75%;
     margin-left: 10%;
-    height: 200px;
+    height: 150px;
     
 
 }
-.container2 p
-{
- margin-top: 5%;
-}
+
 #accordion
 {
     width: 60%;
@@ -275,12 +283,14 @@ hr
 .accordion-body
 {
    
-    color: rgb(78, 76, 76);
+    color: rgb(73, 72, 72);
+    text-align: left;
 }
 .accordion-button
 {
    
     color: black;
+    font-weight: 500;
 }
 .bi-chat-left
 {
