@@ -117,7 +117,8 @@ body{
 
 .box
 {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: left;
     align-items: center;
     min-height: 350px;
@@ -198,38 +199,52 @@ body{
     height: 40%;
     margin-right: 10%;
 }
-.email
+.container3
 {
     float:right;
+    margin-top: 40px;
+    display: flex;
    
-   
-   
+}
+.text-left h5
+{
+    margin-top: 40px;
 }
 #email
 {
   border-radius: 8px;
-  width: 300px ;
+  width: 250px ;
   resize: both;
-}
-.title6
-{
-    height: 100px;
-     background-color: rgb(235, 242, 245);
+  padding: 5px;
+
 }
 
+.title6
+{
+    height: 150px;
+     background-color: rgb(235, 242, 245);
+     padding-top: 10px;
+     margin-top: 100px;
+    
+    
+}
 
 .title6 h5
 {
     color: rgb(3, 3, 99);
     font-weight: bold; 
     margin-left: 5%;
-    margin-top: 5%;
+    
+   
+   
 }
 .title6 p
 {
     color: rgb(3, 3, 99);
     font-weight: lighter;
    margin-left: 5%;
+  
+
 }
 .button3
 {
@@ -238,10 +253,12 @@ body{
     padding: 5px 10px 5px 10px;
    border: none;
     border-radius: 8px;
-    margin-left: 44%;
+    margin-left: 5%;
     width: 100px; 
-    float: right;   
+ margin-right: 100px;
     text-align: center;
+    margin-right: ;
+   
     
 }
 
@@ -273,6 +290,7 @@ hr
     
 
 }
+
 
 #accordion
 {
