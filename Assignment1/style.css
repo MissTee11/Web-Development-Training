@@ -285,7 +285,7 @@ hr
     margin-top: 10%;
     background-color: rgb(235, 242, 245);
     width: 75%;
-    margin-left: 10%;
+    margin:auto;
     height: 150px;
     
 
@@ -313,6 +313,11 @@ hr
 .bi-chat-left
 {
   color: rgb(82, 158, 134);
+}
+hr
+{
+    margin-bottom: 10%;
+    
 }
 
 
