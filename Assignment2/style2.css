@@ -1,0 +1,364 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+ 
+    margin-left: 0%;
+
+}
+.container
+{
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+.navbar
+{
+    
+    margin: 0%;
+}
+.bi-chat-left-fill
+{
+    color: rgb(86, 170, 139);
+    margin-left: 5%;
+}
+.icon
+{
+    color: rgb(3, 3, 99);
+    text-decoration: center;
+    margin-left:45%;
+    margin-bottom: 5%;
+
+}
+.icon2
+{
+    margin-left: 60%;
+    color: green;
+}
+.icon3
+{
+    margin-left: 52.9%;
+    color: green;
+}
+.icon4
+{
+    margin-left: 68.8%;
+    color: green;
+}
+.icon5
+{
+    margin-left: 75.7%;
+    color: green;
+}
+.navbar-brand 
+{
+    font-weight: bold ;
+    color:rgb(3, 3, 99) ;
+   
+}
+.button
+{
+    background-color: rgb(86, 170, 139);
+    color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 10px;
+}
+.text
+{
+   background-color: #ffeed5;
+   padding-left: 6%;
+   padding-top: 17%;
+   padding-bottom: 0px;
+   
+}
+.explanation
+{
+    color: rgb(56, 56, 152);
+    font-weight: lighter;
+}
+.big-text 
+{
+   font-weight: bold;
+   color: rgb(3, 3, 99);
+   font-size: 60px;
+   line-height: normal;
+}
+.light-text
+{
+    font-weight: lighter;
+    color: rgb(162, 162, 162);
+    line-height: 2px;
+}
+.light-text2
+{
+    font-weight: lighter;
+    color: rgb(162, 162, 162);
+    line-height: 2px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.button2
+{
+    background-color: rgb(86, 170, 139);
+    color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 10px 40px 10px 40px;
+
+    margin-bottom: 15%;
+}
+.button3
+{
+    background-color: rgb(86, 170, 139);
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    width: 200px;
+    margin-left: 45%;
+   
+
+}
+.tree
+{
+    float:right;
+    margin-right: 8%;
+    width: 42%;
+    margin-top: 8%;
+    height: auto;
+    max-width: 42%;
+   
+}
+.statement
+{
+    text-align: center;
+    color: gray;
+    font-weight: 500;
+    margin-top: 5%;
+}
+.logos
+{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(116, 110, 110);
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+.logo
+{
+    display: flex;
+}
+
+.section2 
+{
+    background-color: blanchedalmond;
+    padding-left:30px;
+   
+}
+.section2 h5
+{
+    text-align: left;
+    color:  rgb(3, 3, 99);
+    font-size: 30px;
+    font-weight: bold;
+    padding-left:120px;
+    padding-top: 90px;
+ 
+}
+.boxes
+{
+    display: flex;
+    padding-bottom: 8%;
+    color: rgb(75, 74, 74);
+    
+   
+}
+.bold
+{
+    font-weight: bold;
+
+}
+.box1
+{
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-left: 120px;
+    font-size: 20px ;
+ 
+
+   
+
+}
+.box1 h4
+{
+    font-weight: 750;
+    color: rgb(86, 170, 139);
+    font-size: 30px;
+}
+.box2
+{
+    height: 400px;
+    width: 450px;
+    background-color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-left: 30px;
+    font-size: 20px ;
+
+}
+.box2 h4
+{
+    font-size: 30px;
+    color: lightgray;
+}
+.box3
+{
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-left: 30px;
+    font-size: 20px ;
+}
+.box3 h4
+{
+    font-size: 30px;
+    color: lightgray;
+}
+
+.box1:hover, .box2:hover, .box3:hover
+{
+    background-color: whitesmoke;
+    border: dotted;
+    border-color: rgb(64, 175, 153);
+    border-radius: 8px;
+}
+.topic
+{
+    color:  rgb(3, 3, 99);
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+
+}
+.topic1
+{
+    color:  rgb(3, 3, 99);
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+
+}
+.paragraph
+{
+    font-weight: lighter;
+    text-align: center;
+    color:  rgb(71, 71, 93);
+
+}
+.subtopic
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(3, 3, 99);
+    line-height: 5px;
+    text-align: center;
+}
+.paragraph2
+{
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+}
+.grid-container
+{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding-top: 15px;
+}
+.image
+{
+    border-radius: 50%;
+    width: 120px;
+    margin-left: 10px;
+}
+.image2
+{
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 10px;
+}
+#accordion
+{
+    width: 60%;
+    margin-left: 20%;
+
+}
+.accordion-body
+{
+   
+    color: rgb(73, 72, 72);
+    text-align: left;
+}
+.accordion-button
+{
+   
+    color: black;
+    font-weight: 500;
+}
+.Accordion 
+{
+    margin-top: 150px;
+}
+.accordion-button::after
+{
+    display: none;
+}
+.container
+{
+    border-radius: 20px;
+    margin-top: 10%;
+    background-color:blanchedalmond;
+    width: 75%;
+    margin:auto;
+    height: 150px;
+    
+}
+.explanation h6
+{
+    color: rgb(3, 3, 99);
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 30px;
+
+}
+.explanation p
+{
+    color: rgb(3, 3, 99);
+    font-weight: lighter;
+    text-align: center;
+   
+
+}
+
+
+
+
+
