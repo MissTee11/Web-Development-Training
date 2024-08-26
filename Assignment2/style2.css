@@ -3,12 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
-body
-{
- 
-    margin-left: 0%;
 
-}
 .container
 {
     background-color: #f7f7f7;
@@ -17,7 +12,6 @@ body
 
 .navbar
 {
-    
     margin: 0%;
 }
 .bi-chat-left-fill
@@ -490,6 +484,110 @@ hr
     float: right;
     margin-right: 80px;
     color: gray;
+}
+
+
+@media (max-width: 391px)
+{
+    body 
+    {
+        background-color:antiquewhite;
+    }
+    .right
+    {
+      top:80px;
+    }
+    .big-text
+    {
+        font-size: 30px;
+        margin: 0px;
+    }
+    .explanation
+    {
+        font-size: 10px;
+    }
+    .tree
+    {
+        width: 50%;
+        top:61%;
+        left: auto;
+    }
+    .button2
+    {
+        font-size: 10px;
+        padding: 5px 10px;
+        width: 30%;
+
+    }
+    .container2
+    {
+    }
+    .logos
+    {
+        display: list-item ;
+    }
+    .left 
+    {
+        overflow: visible;
+    }
+    .section2 h5 
+    {
+        font-size: 40px;
+        padding-left: 70px;
+    }
+    .boxes
+    {
+        
+        overflow: scroll;
+       
+    }
+    .section2
+    {
+        padding-left: 0%;
+    }
+    .box1
+    {
+        height: 650px;
+    }
+    .box2
+    {
+        height: 600px;
+    }
+    .box3
+    {
+        height: 650px;
+    }
+    .Accordion
+    {
+        margin-top: 50px;
+    }
+    
+    .grid-container
+    {
+        grid-template-columns: auto ;
+    }
+    .button3
+    {
+       width: 30%;
+       position: absolute;
+       right:34%;
+    }
+    .container
+    {
+        height: 200px;
+    }
+    .summary
+    {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    
+
+   
+
+    
+    
 }
 
 
