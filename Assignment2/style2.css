@@ -4,11 +4,7 @@
     padding: 0px;
 }
 
-.container
-{
-    background-color: #f7f7f7;
-    width: 100%;
-}
+
 
 .navbar
 {
@@ -68,14 +64,59 @@
     border-radius: 8px;
     padding: 10px;
 }
-.right
+.leftSection
 {
-  position:absolute;
-  left:5%;
-  top: 35%
-  
-   
+    width: 50%; 
+    position: relative;
+    left:5%;
 }
+
+.rightSection
+{
+    width: 50%;
+}
+
+.container2
+{
+   background-color: #f0f0f0;
+   width: 100%;
+   display: flex;
+}
+.tree
+{
+    width: 70%;
+    position: relative;
+    bottom: -20px;  
+    top: 10%;
+}
+.mini-section
+{
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.text
+{
+    position: absolute;
+    top: 22%;
+}
+.button2
+{
+    background-color: rgb(86, 170, 139);
+    color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 10px 40px 10px 40px;
+  
+}
+   
 .explanation
 {
     color: rgb(56, 56, 152);
@@ -108,17 +149,7 @@
     font-weight: lighter;
     color: rgb(162, 162, 162);
 }
-.button2
-{
-    background-color: rgb(86, 170, 139);
-    color: white;
-    border: none;
-    display: inline-block;
-    border-radius: 12px;
-    padding: 10px 40px 10px 40px;
 
-    margin-bottom: 15%;
-}
 .button3
 {
     background-color: rgb(86, 170, 139);
@@ -128,23 +159,11 @@
     border: none;
     padding: 10px 40px 10px 40px;
     width: 200px;
-    margin-left: 43%;
-
    
+
 
 }
-.tree
-{
-    width: 50%;
-    float:right;
-    position: relative;
-    bottom: -20px;
-    left:125px
 
-   
-
-   
-}
 .statement
 {
     text-align: center;
@@ -168,7 +187,9 @@
 .section2 
 {
     background-color: #f0f0f0;
-    padding-left:30px;
+  
+
+    
    
 }
 .section2 h5
@@ -177,16 +198,17 @@
     color:  rgb(3, 3, 99);
     font-size: 30px;
     font-weight: bold;
-    padding-left:120px;
-    padding-top: 90px;
  
 }
 .boxes
 {
     display: flex;
-    padding-bottom: 8%;
+    padding-bottom: 5%;
     color: rgb(75, 74, 74);
-    
+    font-size: 20px ;
+    padding-left: 5%;
+    width: 100%;
+    justify-content: space-evenly;
    
 }
 .bold
@@ -196,18 +218,10 @@
 }
 .box1
 {
-    height: 450px;
-    width: 400px;
-    background-color: white;
-    text-align: left;
-    padding-left: 50px;
-    padding-top: 50px;
-    margin-left: 120px;
-    font-size: 20px ;
- 
-
    
-
+    background-color: white;
+    width: 30%;
+    padding: 5%;
 }
 .box1 h4
 {
@@ -217,16 +231,15 @@
 }
 .box2
 {
-    height: 400px;
-    width: 450px;
+   
     background-color: white;
-    text-align: left;
-    padding-left: 50px;
-    padding-top: 50px;
-    margin-left: 30px;
-    font-size: 20px ;
-
+    width: 30%;
+    height: 90%;
+    padding: 5%;
 }
+   
+
+
 .box2 h4
 {
     font-size: 30px;
@@ -234,15 +247,12 @@
 }
 .box3
 {
-    height: 450px;
-    width: 400px;
     background-color: white;
-    text-align: left;
-    padding-left: 50px;
-    padding-top: 50px;
-    margin-left: 30px;
-    font-size: 20px ;
+    width: 30%;
+    padding: 5%;
 }
+    
+
 .box3 h4
 {
     font-size: 30px;
@@ -345,44 +355,40 @@
     margin-top: 10%;
     background-color:#f7f7f7;;
     width: 75%;
-    margin:auto;
-    height: 150px;
+   display: flex ;
+   flex-direction: column;
+   align-items: center;
+  text-align: center;
+  padding: 20px;
+    
     
 }
-.explanation h6
+.explanation2
+{
+    color: rgb(56, 56, 152);
+    font-weight: lighter;
+   
+    
+}
+
+.explanation2 h6
 {
     color: rgb(3, 3, 99);
     font-weight: bold; 
-    text-align: center;
-    margin-top: 5%;
-    padding-top: 30px;
+   
+  
 
 }
-.explanation p
+.explanation2 p
 {
     color: rgb(3, 3, 99);
     font-weight: lighter;
-    text-align: center;
+   
    
 
 }
-.container2
-{
-   display:flex;
-   background-color: #f0f0f0;
-}
-.mini-section
-{
-    background-color: white;
-    position: absolute;
-    right:40px;
-    top: 250px;
-    height: 200px;
-    width:200px;
-    text-align: center;
-    padding-top: 30px;
 
-}
+
 .black-text
 {
     color: black;
@@ -394,17 +400,19 @@
     font-weight: 400;
     padding-top: 20%;
 }
-.section4
+.container3
 {
-    height: 150px;
      background-color:#f0f0f0;
-     padding-top: 10px;
-     margin-top: 100px;
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
     
     
 }
 
-.section4 h5
+.text-left h5
 {
     color: rgb(3, 3, 99);
     font-weight: bold; 
@@ -413,11 +421,12 @@
    
    
 }
-.section4 p
+.text-left p
 {
     color: rgb(3, 3, 99);
     font-weight: lighter;
    margin-left: 5%;
+   
   
 
 }
@@ -425,21 +434,15 @@
 {
     background-color: rgb(86, 170, 139);
     color: white;
-    padding: 5px 10px 5px 10px;
-   border: none;
+     border: none;
     border-radius: 8px;
-    margin-left: 5%;
-    width: 100px; 
- margin-right: 100px;
     text-align: center;
-    margin-right: ;
-   
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
     
 }
-.text-left h5
-{
-    margin-top: 40px;
-}
+
 #email
 {
   border-radius: 8px;
@@ -448,13 +451,18 @@
   padding: 5px;
 
 }
-.container3
-{  
-    float:right;
-    margin-top: 40px;
-    display: flex;
-   
+.text-left
+{
+    width: 50%;
+
 }
+.emailForm
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
 .summary
 {
     background-color: white;
@@ -487,110 +495,70 @@ hr
 }
 
 
-@media (max-width: 391px)
+@media screen and (max-width: 767px)
 {
-    body 
-    {
-        background-color:antiquewhite;
-    }
-    .right
-    {
-      top:80px;
-    }
-    .big-text
-    {
-        font-size: 30px;
-        margin: 0px;
-    }
-    .explanation
-    {
-        font-size: 10px;
-    }
-    .tree
-    {
-        width: 50%;
-        top:61%;
-        left: auto;
-    }
-    .button
-    {
-        padding: 5%;
-        
-    }
-    .button2
-    {
-        font-size: 10px;
-        padding: 5px 10px;
-        width: 30%;
-
-    }
-    .container2
-    {
-    }
     .logos
     {
-        display: list-item ;
+        display: list-item;
     }
-    .left 
+    .emailForm
     {
-        overflow: visible;
+        flex-direction: column;
     }
-    .section2 h5 
+    .container3
     {
-        font-size: 40px;
-        padding-left: 70px;
+        flex-direction: column;
+    }
+    .grid-container
+    {
+        grid-template-columns: auto;
     }
     .boxes
     {
-        
-        overflow: scroll;
-       
-    }
-    .section2
-    {
-        padding-left: 0%;
+        flex-direction:column ;
+        align-items: center;
     }
     .box1
     {
-        height: 650px;
+        width: 80%;
     }
     .box2
     {
-        height: 600px;
+        width: 80%;
     }
     .box3
     {
-        height: 650px;
+        width: 80%;
     }
-    .Accordion
+    .text
     {
-        margin-top: 50px;
+        position: unset;
+        padding-top: 10px;
     }
-    
-    .grid-container
+    .leftSection
     {
-        grid-template-columns: auto ;
+        width: 100%;
     }
-    .button3
+    .rightSection
     {
-       width: 30%;
-       position: absolute;
-       right:34%;
+    width: 100%;
     }
-    .container
+    .container2
     {
-        height: 200px;
+        flex-direction: column;
     }
-    .summary
+    .mini-section
     {
-        
-        font-size: 70%;
+        right: 4%;
+        top: 65%;
+        height: 148px;
+        width: 148px;
     }
-    .section4 p 
+    .button4
     {
-        font-size: 95%;
+        margin: 10px 0px 10px 0px;
     }
-    .
+   
 
     
 
