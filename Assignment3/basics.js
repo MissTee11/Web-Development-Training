@@ -4,40 +4,40 @@ it can change the html content of a web page, the attribute values, HTML styles,
 /*1.SYNTAX AND BASICS*/
 
 {
-    let x = "Zimbabwe";
-    console.log("Country:",x);
+    let place = "Zimbabwe";
+    console.log("Country:",place);
 
 }
-let x = "Harare";
-console.log("Capital City:",x);
+let place = "Harare";
+console.log("Capital City:",place);
 
 /************************************************************************************************************************************** */
 
-var y = "Twenty"
-console.log("Number1:",y);
+var numWord = "Twenty"
+console.log("Number1:",numWord);
 
 {
-    var y = "Thirty";
-    console.log("Number2:",y);
+    var numWord = "Thirty";
+    console.log("Number2:",numWord);
 }
-console.log("Number2:",y);
+console.log("Number2:",numWord);
 
 /*************************************************************************************************************************************** */
 
-const z = ["Red","Blue","Yellow"];
-console.log(z);
+const color = ["Red","Blue","Yellow"];
+console.log(color);
 {
-    const z = {color1:"pink", color2:"purple",color3:"peach"};
-    console.log(z);
+    const color = ["pink", "purple","peach"];
+    console.log(color);
 
 }
 
-z[1] = "Beige";
-console.log(z);
-z.push("Orange");
-console.log(z);
-z.pop();
-console.log(z);
+color[1] = "Beige";
+console.log(color);
+color.push("Orange");
+console.log(color);
+color.pop();
+console.log(color);
 
 /*************************************************************************************************************************************** */
 
@@ -49,22 +49,22 @@ console.log(intro);
 
 /**************************************************************************************************************************************** */
 
-let c;
-c = 30;
-console.log(c);
-console.log (typeof c);
+let digit;
+digit = 30;
+console.log(digit);
+console.log (typeof digit);
 
 /************************************************************************************************************************************** */
 
-{
-    let x = 10;
-    let y = 10;
-    let z = 20;
-    console.log (x==y);
-    console.log(x==z);
-    console.log(typeof (x==z));
 
-}
+    let first = 10;
+    let second = 10;
+    let third = 20;
+    console.log (first==second);
+    console.log(first==third);
+    console.log(typeof (first==third));
+
+
 /*****************************************************************************************************************************************/
 
 let laptop = {brand:"Lenovo", color:"silver",inches:"15"};
@@ -79,23 +79,23 @@ console.log(typeof laptops);
 
 /****************************************************************************************************************************************/
 
-{
-    let laptop = {brand:"Lenovo", color:"silver",inches:"15"};
-    laptop = null;
-    console.log(laptop);
-    console.log(typeof laptop);
+
+    let laptop1 = {brand:"Lenovo", color:"silver",inches:"15"};
+    laptop1 = null;
+    console.log(laptop1);
+    console.log(typeof laptop1);
     
-}
+
 
 /****************************************************************************************************************************************/
 
-{
-    let laptop = {brand:"Lenovo", color:"silver",inches:"15"};
-    laptop = undefined;
-    console.log(laptop);
-    console.log(typeof laptop);
+
+    let laptop2 = {brand:"Lenovo", color:"silver",inches:"15"};
+    laptop2 = undefined;
+    console.log(laptop2);
+    console.log(typeof laptop2);
     
-}
+
 
 /*****************************************************************************************************************************************/
 
@@ -107,71 +107,191 @@ console.log(typeof symbol);
 
 /*3.OPERATORS*/
 
-let e;
-e = 20 + 40;
-console.log (e);
-e = 20 ** 40;
-console.log (e);
-e = 40 % 20;
-console.log (e);
+let add;
+add = 20 + 40;
+console.log (add);
+add = 20 ** 40;
+console.log (add);
+add = 40 % 20;
+console.log (add);
 
 /*****************************************************************************************************************************************/
 
-let f;
-f = 20 !== 40;
-console.log (f);
-f = 20 >= 40;
-console.log (f);
-f = 40 > 20;
-console.log (f);
+let compare;
+compare = 20 !== 40;
+console.log (compare);
+compare = 20 >= 40;
+console.log (compare);
+compare = 40 > 20;
+console.log (compare);
 
 /******************************************************************************************************************************************/
 
-let g;
-g = 20 !== 40;
-console.log (g);
-g = 20 >= 40;
-console.log (g);
-g = 40 > 20;
-console.log (g);
+let greater;
+greater = 20 !== 40;
+console.log (greater);
+greater = 20 >= 40;
+console.log (greater);
+greater = 40 > 20;
+console.log (greater);
 
 /******************************************************************************************************************************************/
 
-{
-    let a = 10;
-    let b = 6;
 
-   console.log((a > 15)&&(b == 6));
-   console.log((a > 15)||(b == 6));
-   console.log(!(a > 15));
-   console.log(!(b == 6));
+    let ten = 10;
+    let six = 6;
 
-}
+   console.log((ten > 15)&&(six == 6));
+   console.log((ten > 15)||(six == 6));
+   console.log(!(ten > 15));
+   console.log(!(six == 6));
+
+
 
 /*******************************************************************************************************************************************/
 
 /*4.EXPRESSIONS AND STATEMENTS*/
 
 //Statements
-{
-    let x, y, z; 
-     x = 10;
-     y = 10;
-     z = 20; 
-}
+
+    let one, two, three; 
+     one = 10;
+     two = 10;
+     three = 20; 
+
+
 /*They are programming instructions that are executable.
  They can be grouped together in code blocks*/
 
 //Expressions
-var a = 6;
-var b = 7;
-a + b;
+var six2 = 6;
+var seven = 7;
+six2 + seven;
 /*They are a combination of values, variables and operators.
 Expressions compute to values called evaluations which are used in statements.*/
 
 /********************************************************************************************************************************************/
 
+/*CONTROL FLOW*/
 
+//Conditional statements
+
+function numberCheck(Num)
+{
+    if(typeof Num === 'number'&& Num > 0)
+
+        {
+            console.log(Num + " is positive");
+        }
+    else if( typeof Num === 'number'&& Num < 0)
+        {
+            console.log(Num + " is negative.")
+
+        }
+    else
+        {
+            console.log("Number is zero")
+        }
+
+}
+numberCheck(42);
+numberCheck(-19);
+numberCheck(0);
+
+/******************************************************************************************************************************************/
+
+//Loops
+
+for(let firstNum = 1 ; firstNum<11;firstNum++)
+{
+    console.log(firstNum);
+}
+/****************************************************************************************************************************************** */
+
+let lastNum = 10;
+while(lastNum > 1)
+{
+    lastNum-- ;
+    console.log(lastNum);
+}
+/*******************************************************************************************************************************************/
+
+let position = 1;
+do
+{
+    position++;
+    console.log(position)
+}
+while(position < 5);
+
+/******************************************************************************************************************************************/
+
+/*ERROR HANDLING*/
+
+function Division(a,b)
+{
+    try
+    {
+       if(b==0)
+       {
+        throw("Cannot divide by zero.");
+       }
+       else
+       {
+        console.log(a/b);
+       }
+
+    }
+    catch(err)
+    {
+       console.log("Error:  "+ err);
+    }
+    finally
+    {
+        console.log("The numbers have been divided.");
+    }
+}
+Division(10,0);
+Division(8,2);
+Division(10, -2);
+
+/*******************************************************************************************************************************************/
+
+/*FUNCTIONS*/
+
+function Introduction (name , age)
+{
+    console.log("Hello my name is "+ name +". I am "+ age +" years old.")
+}
+Introduction( "John" , 22);
+
+/*******************************************************************************************************************************************/
+let n = 4;
+const factNum = function (n)
+{
+    if (n === 0) { 
+        return 1; 
+    } 
+    else { 
+        return n * factNum( n - 1 ); 
+    } 
+} ;
+console.log(factNum(n));
+/*******************************************************************************************************************************************/
+
+
+let numToSquare= [2,4,6,8];
+let squaredNum = () => numToSquare.map(number => number*number);
+
+console.log(squaredNum());
+
+/*******************************************************************************************************************************************/
+
+function changeName()
+{
+    document.getElementById("heading").innerHTML= "Javascript Fundamentals";
+}
+/*******************************************************************************************************************************************/
 
 
 

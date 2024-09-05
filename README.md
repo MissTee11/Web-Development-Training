@@ -30,4 +30,3 @@ Function Declaration: Write a function that takes two arguments (a name and age)
 Function Expression: Create an anonymous function that calculates the factorial of a number and invoke it.
 
 Arrow Function: Write an arrow function that takes an array of numbers and returns a new array with each number squared.
-has context menu
