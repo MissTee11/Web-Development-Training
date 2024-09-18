@@ -219,10 +219,11 @@ while(lastNum > 1)
 let position = 1;
 do
 {
-    position++;
     console.log(position)
+    position++;
+    
 }
-while(position < 5);
+while(position < 6);
 
 /******************************************************************************************************************************************/
 
