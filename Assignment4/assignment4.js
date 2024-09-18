@@ -80,6 +80,36 @@ purple.addEventListener("click",() =>
     }
     );
 
+/************************************************************************************************************/
+
+const text = document.getElementById("paragraph");
+
+text.addEventListener("click", event =>
+{
+
+event.target.style.visibility = "hidden";
+
+}
+);
+
+/************************************************************************************************************/
+
+const picture = document.getElementById("tree");
+
+picture.addEventListener("mouseover", event=> 
+{
+    event.target.style.width ="100%";
+}
+);
+picture.addEventListener("mouseout", event=> 
+    {
+        event.target.style.width ="40%";
+    }
+    );
+
+/************************************************************************************************************/
+
+//ANIMATE
 
 
 
