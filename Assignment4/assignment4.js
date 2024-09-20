@@ -41,13 +41,16 @@ minus.addEventListener("click", event=>
 document.getElementById("counterButton1").onclick = function()
 {
     const plus = counter.increment();
+    document.getElementById("number").textContent = plus;
     console.log("Current counter is : ", plus);
 
 };
-document.getElementById("counterButton1").onclick = function()
+
+document.getElementById("counterButton2").onclick = function()
 {
-    const plus = counter.increment();
-    console.log("Current counter is : ", plus);
+    const minus = counter.decrement();
+    document.getElementById("number").textContent = minus;
+    console.log("Current counter is : ", minus);
 
 };
 
@@ -64,10 +67,10 @@ red.addEventListener("click",() =>
     );
     
 blue.addEventListener("click",() =>
-{
-    document.body.style.backgroundColor = "blue";
-}
-);
+    {
+        document.body.style.backgroundColor = "blue";
+    }
+    );
 
 yellow.addEventListener("click",() =>
     {
@@ -82,15 +85,23 @@ purple.addEventListener("click",() =>
 
 /************************************************************************************************************/
 
-const text = document.getElementById("paragraph");
 
-text.addEventListener("click", event =>
+
+function Visibility()
 {
-
-event.target.style.visibility = "hidden";
-
+    const text = document.getElementById("paragraph");
+    const toggle = document.getElementById("flexSwitchCheckDefault");
+    if (toggle.checked)
+    {
+        text.style.display = "none";
+    }
+    else
+    {
+        text.style.display = "block";
+    }
 }
-);
+
+
 
 /************************************************************************************************************/
 
@@ -110,6 +121,12 @@ picture.addEventListener("mouseout", event=>
 /************************************************************************************************************/
 
 //ANIMATE
+function animate()
+{
+    const move=document.getElementById("square");
+    move.style.animation = "mymove 5s infinite";
+
+}
 
 
 
