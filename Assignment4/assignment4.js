@@ -121,12 +121,15 @@ picture.addEventListener("mouseout", event=>
 /************************************************************************************************************/
 
 //ANIMATE
-function animate()
-{
-    const move=document.getElementById("square");
-    move.style.animation = "mymove 5s infinite";
 
-}
+document.getElementById("fadeButton").onclick=function()
+
+{
+    const fade =document.getElementById("square");
+    fade.style.opacity = "0";
+};
+
+
 
 
 
