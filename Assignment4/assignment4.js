@@ -128,7 +128,11 @@ document.getElementById("fadeButton").onclick=function()
     const fade =document.getElementById("square");
     fade.style.opacity = "0";
 };
-
+/*function animate()
+{
+    const fade = document.getElementById("square");
+    fade.style.opacity = "0";
+}*/
 
 
 
