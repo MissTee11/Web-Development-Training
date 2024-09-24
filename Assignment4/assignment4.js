@@ -122,17 +122,18 @@ picture.addEventListener("mouseout", event=>
 
 //ANIMATE
 
-document.getElementById("fadeButton").onclick=function()
+/*document.getElementById("fadeButton").onclick=function()
 
 {
     const fade =document.getElementById("square");
     fade.style.opacity = "0";
-};
-/*function animate()
+};*/
+function animateDiv()
 {
+   console.log("click");
     const fade = document.getElementById("square");
     fade.style.opacity = "0";
-}*/
+}
 
 
 
