@@ -1,6 +1,7 @@
 /*fetch("https://freetestapi.com/api/v1/students").then((student)=> 
 {
     return student.json();
+
 }).then((studentInfo)=>
 {
     let tableInfo ="";
@@ -30,6 +31,7 @@ async function fetchData() {
     try {
         const response = await fetch(studenturl, studentoptions);
         const studentInfo = await response.json();
+        console.log(studentInfo);
 
         let tableInfo = "";
         studentInfo.map((values) => {
@@ -38,7 +40,7 @@ async function fetchData() {
                             <td>${values.age}</td>
                             <td>${values.email}</td>
                             <td>${values.gender}</td>
-                            <td>${values.address}</td>
+                            <td>${values.address.street +" "+ values.address.city +" "+ values.address.country}</td>
                             <td>${values.phone}</td>
                             <td><img src="${values.image}" alt="student image"/></td>
                           </tr>`;
