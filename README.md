@@ -35,59 +35,8 @@ How Onclick events work in Javascript ?
 
 How Onclick events work in Javascript ? 
   
-
- 
-
- 
-const mySymbol = Symbol('description');
-const anotherSymbol = Symbol('description'); 
- 
-console.log(mySymbol === anotherSymbol); // false
- 
-let position = 1;
-do
-{
-    position++;
-    console.log(position)
-}
-while(position < 5);
- 
-for(let firstNum = 1 ; firstNum<11;firstNum++)
-{
-    console.log(firstNum);
-}
- 
-URL : https://www.youtube.com/watch?v=g_vXSKbfUiQ
- 
-Function declarations and expressions
-
-Parameters and return values
-
-Arrow functions
-
-Function scope and closures
-
-Objects and Arrays
- 
-Creating and manipulating objects
-
-Object properties and methods
-
-Arrays and array methods
-
-Destructuring
-
-DOM Manipulation
- 
-Selecting elements (getElementById, querySelector)
-
-Modifying element content and attributes
-
-Event handling (addEventListener, event object)
  
 ASSIGNMENT4
-
-Revise above topics again.
 
 Create an onclick event to change the color of a circle.
 
