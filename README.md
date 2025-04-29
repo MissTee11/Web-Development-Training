@@ -1,52 +1,55 @@
-# Web-Development-Training
-
-Assignment3 Tasks:
-JavaScript Introduction:
-
-Write a brief comment at the top of your JavaScript file explaining what JavaScript is and how it works in the browser.
-
-Syntax and Basics:
-
-Variables: Declare variables using var, let, and const. Show examples of declaring and assigning values to each type of variable.
-
-Data Types: Create variables of different data types (Number, String, Boolean, Object, Array, Null, Undefined, Symbol) and log their values and types to the console.
-
-Operators: Perform arithmetic operations, comparisons, and use logical operators. Show examples of each and log the results to the console.
-
-Expressions and Statements: Write a few expressions and statements, and describe the difference between them.
-
-Control Flow:
-
-Conditional Statements: Write a function that takes a number as input and uses if, else if, and else statements to classify the number as 'positive', 'negative', or 'zero'.
-
-Loops: Write a for loop to print numbers from 1 to 10, a while loop to print the numbers from 10 to 1, and a do-while loop to print numbers from 1 to 5.
-
-Error Handling: Write a function that takes two numbers and divides them. Use try, catch, and finally to handle any potential errors (e.g., division by zero).
-
-Functions:
-
-Function Declaration: Write a function that takes two arguments (a name and age) and returns a greeting message.
-
-Function Expression: Create an anonymous function that calculates the factorial of a number and invoke it.
-
-Arrow Function: Write an arrow function that takes an array of numbers and returns a new array with each number squared.
-How Onclick events work in Javascript ? 
-
-
-How Onclick events work in Javascript ? 
-  
+ This repository contains all the projects, mini assignments, and major implementations completed during a comprehensive Web Development Training Program conducted by Dure Technologies.
  
-ASSIGNMENT4
+ 📚 Overview
+This training was designed to cover the full spectrum of modern web development — from the basics of HTML, CSS, and JavaScript to advanced topics such as API integration, ReactJS with Redux, and full-stack CRUD operations.
 
-Create an onclick event to change the color of a circle.
+🚀 Tech Stack & Tools
+Frontend: HTML, CSS, JavaScript, ReactJS, Redux
 
-Create a counter with two buttons—one to increment the counter and one to decrement it. The count updates each time the respective button is clicked.
+API Integration: REST APIs using Fetch/Axios
 
-Create a button that toggles the visibility of a text paragraph or image each time it's clicked.
+State Management: Redux
 
-Implement multiple buttons that change the background color of the entire page
+Data Handling: Local Storage
 
-Implement On hover, increase the size of the image.
+Security: Basic client-side encryption
 
-Extra --> Create an onclick event to animate.
- 
+Utilities: Responsive design, conditional rendering, form validation
+
+🛒 Capstone Project: Online Shopping Platform
+Features:
+Product Listing via external API
+
+Add to Cart functionality with Redux
+
+Product Management (CRUD) operations
+
+State Persistence using Local Storage
+
+Secure Data Handling with encryption
+
+Responsive Design for desktop and mobile
+
+This project demonstrates a full-featured single-page application (SPA) built with React and Redux.
+
+🧪 Mini Assignments
+Throughout the program, various hands-on tasks were completed to reinforce each concept:
+
+HTML/CSS layout tasks
+
+JavaScript DOM manipulation
+
+Responsive design exercises
+
+CRUD operations using vanilla JS
+
+API fetch/display tasks
+
+React component creation
+
+Redux state setup and actions
+
+All assignments are organized in the same repository for consistency and easy navigation.
+
+🙌 Acknowledgements
+This training was facilitated by Dure Technologies, focusing on practical, hands-on development with real-world applications and progressive complexity.
