@@ -16,11 +16,16 @@ Security: Basic client-side encryption
 
 Utilities: Responsive design, conditional rendering, form validation
 
-🛒 Capstone Project: Online Shopping Platform
+🛒 Capstone Project 1: Online Shopping Platform
 Features:
 Product Listing via external API
 
 Add to Cart functionality with Redux
+
+Responsive Design for desktop and mobile
+
+🛒 Capstone Project 2: Product Management Application
+Features:
 
 Product Management (CRUD) operations
 
@@ -28,9 +33,7 @@ State Persistence using Local Storage
 
 Secure Data Handling with encryption
 
-Responsive Design for desktop and mobile
 
-This project demonstrates a full-featured single-page application (SPA) built with React and Redux.
 
 🧪 Mini Assignments
 Throughout the program, various hands-on tasks were completed to reinforce each concept:
